@@ -32,8 +32,6 @@ const encodedQris = computed(() => {
               >/api/qris/[encoded qris]?transaction-amount=[nominal
               transaksi]</code
             >
-            <UBadge class="mr-2" color="warning" variant="subtle">WIP</UBadge>
-            <UBadge class="" color="error" variant="subtle">Need Help</UBadge>
           </p>
           <p>
             Output dalam bentuk gambar QRIS lengkap dengan nama merchant, NMID,

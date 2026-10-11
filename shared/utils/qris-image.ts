@@ -94,8 +94,6 @@ export async function drawImage(
       CANVAS_WIDTH / 2,
       latestHeightComponent,
     );
-
-    latestHeightComponent = latestHeightComponent + SEPARATOR_HEIGHT + 30 * 1.2;
   }
 
   // ------------------------------------------------------------- Generated timestamp
