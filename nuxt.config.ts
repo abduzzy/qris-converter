@@ -7,13 +7,9 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "nuxt-og-image",
     "@nuxt/eslint",
+    "@vercel/analytics",
   ],
   css: ["~/assets/css/main.css"],
-  vite: {
-    experimental: {
-      enableNativePlugin: true,
-    },
-  },
   site: {
     url: "https://qris-converter.abdusy.dev",
     title: "Ubah QRIS Statis Jadi Dinamis",

@@ -13,7 +13,7 @@
       </template>
       <template #right>
         <UButton
-          to="https://github.com/kido1611/qris-converter"
+          to="https://github.com/abduzzy/qris-converter"
           :external="true"
           square
           icon="tabler:brand-github"
